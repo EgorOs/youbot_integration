@@ -1,11 +1,12 @@
-# YouBot Integration (with velodyne lidar)
-Collection of ROS packages to enable MoveIt!, move_base, FlexBE, etc. for the Kuka YouBot.
+# YouBot Velodyne Integration
+Added a configuration of youbot with HDL-32E on top of the manipulator
 
 ### Additionally required repos
 
 * [youbot_description](https://github.com/mas-group/youbot_description)
 * [youbot_simulation](https://github.com/mas-group/youbot_simulation)
 * [flexbe_behavior_engine](https://github.com/team-vigir/flexbe_behavior_engine)
+* [velodyne_simulator](https://github.com/florianshkurti/velodyne_simulator)
 
 ### Further recommended repos
 
@@ -13,4 +14,4 @@ Collection of ROS packages to enable MoveIt!, move_base, FlexBE, etc. for the Ku
 
 ### Usage
 
-    roslaunch youbot_launch youbot_simulation.launch
+    roslaunch youbot_launch youbot_velodyne.launch
