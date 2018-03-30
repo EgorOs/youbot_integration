@@ -1,4 +1,4 @@
-# YouBot Integration
+# YouBot Integration (with velodyne lidar)
 Collection of ROS packages to enable MoveIt!, move_base, FlexBE, etc. for the Kuka YouBot.
 
 ### Additionally required repos
