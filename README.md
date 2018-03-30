@@ -1,5 +1,5 @@
 # YouBot Velodyne Integration
-Added a configuration of youbot with HDL-32E on top of the manipulator
+Added a configuration of youbot with VLP-16 on top of the manipulator
 
 ### Additionally required repos
 
