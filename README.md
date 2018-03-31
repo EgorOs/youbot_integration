@@ -1,15 +1,12 @@
 # YouBot Velodyne Integration
 Added a configuration of youbot with VLP-16 on top of the manipulator
 
-### Additionally required repos
-
-* [flexbe_behavior_engine](https://github.com/team-vigir/flexbe_behavior_engine)
-* [velodyne_simulator](https://github.com/florianshkurti/velodyne_simulator)
-
-Make sure that you installed description and simulation from this repos
-
-* [youbot_simulation](https://github.com/youbot/youbot_simulation)
-* [youbot_description](https://github.com/youbot/youbot_description)
+### Installation
+	cd ~/catkin_ws/src
+    git clone http://github.com/youbot/youbot_description.git -b kinetic-devel
+    git clone https://github.com/youbot/youbot_simulation.git
+    git clone https://github.com/florianshkurti/velodyne_simulator.git
+    git clone https://github.com/team-vigir/flexbe_behavior_engine.git
 
 ### Further recommended repos
 
