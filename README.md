@@ -3,13 +3,13 @@ Added a configuration of youbot with VLP-16 on top of the manipulator
 
 ### Additionally required repos
 
-* [youbot_description](https://github.com/mas-group/youbot_description)
 * [flexbe_behavior_engine](https://github.com/team-vigir/flexbe_behavior_engine)
 * [velodyne_simulator](https://github.com/florianshkurti/velodyne_simulator)
 
-Make sure that you installed youbot_simulation from this repo
+Make sure that you installed description and simulation from this repos
 
 * [youbot_simulation](https://github.com/youbot/youbot_simulation)
+* [youbot_description](https://github.com/youbot/youbot_description)
 
 ### Further recommended repos
 
