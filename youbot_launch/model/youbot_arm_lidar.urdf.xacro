@@ -59,5 +59,11 @@
     <origin xyz="0.3 0 -0.03" rpy="0 0 0"/>
   </xacro:hokuyo_urg04_laser>
 
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>youbot</robotNamespace>
+    </plugin>
+  </gazebo>
+
   
 </robot>
