@@ -3,10 +3,12 @@ Added a configuration of youbot with VLP-16 on top of the manipulator
 
 ### Installation
 	cd ~/catkin_ws/src
+    git clone https://github.com/EgorOs/youbot_integration.git
     git clone http://github.com/youbot/youbot_description.git -b kinetic-devel
     git clone https://github.com/youbot/youbot_simulation.git
     git clone https://bitbucket.org/DataspeedInc/velodyne_simulator.git
     git clone https://github.com/team-vigir/flexbe_behavior_engine.git
+    https://github.com/EgorOs/youbot_lidar_moveit.git
     cd ~/catkin_ws
     catkin_make
 
